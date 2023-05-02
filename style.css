@@ -1,3 +1,8 @@
+@font-face {
+    font-family: 'TT Firs Neue';
+    src: url('/font/stylesheet.css');
+}
+
 /* Установка стилей для тега body */
 body {
     font-family: 'Open Sans', sans-serif;
