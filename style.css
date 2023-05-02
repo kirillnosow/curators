@@ -5,7 +5,7 @@
 
 /* Установка стилей для тега body */
 body {
-    font-family: 'Open Sans', sans-serif;
+    font-family: 'TT Firs Neue', TT Firs Neue Regular;
     font-size: 16px;
     color: #D2D2D2;
     background-color: #000218;
@@ -13,6 +13,7 @@ body {
 
 /* Установка стилей для заголовков */
 h1, h2, h3 {
+    font-family: 'TT Firs Neue', TTFirsNeue-ExtraBold;
     font-weight: bold;
     color: #D2D2D2;
 }
