@@ -4,18 +4,25 @@
 
    <h1>Авторизация в ВКонтакте</h1>
  <div id="vk_auth"></div>
- <script type="text/javascript">
-  VK.init({
-   apiId: '51633091'
-  });
-  VK.Widgets.Auth('vk_auth', {
-   width: '200px',
-   onAuth: function(data) {
-    console.log(data);
-    window.location.href = '/welcome.html'; // замените на адрес своей страницы
+ 
+<script type="text/javascript" src="https://vk.com/js/api/openapi.js?169"></script>
+<script type="text/javascript">
+  VK.init({apiId: 51633091});
+</script>
+
+<!-- VK Widget -->
+<div id="vk_auth"></div>
+<script type="text/javascript">
+   VK.Widgets.Auth('vk_auth', {
+      width: '200px',
+      onAuth: function(data) {
+      console.log(data);
+      window.location.href = 'http://example.com/otherpage.html'; // замените на адрес своей страницы
    }
   });
- </script>
+
+</script>
+
 
 </body>
 </html>
