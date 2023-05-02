@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html>
+<head>
+ <title>Добро пожаловать на сайт</title>
+ <meta charset="UTF-8">
+</head>
+<body>
+ <h1>Добро пожаловать на сайт</h1>
+ <p>Вы успешно авторизовались через ВКонтакте.</p>
+ <p>Ниже приведены ваши данные:</p>
+ <div id="vk_data"></div>
+ <script src="https://vk.com/js/api/openapi.js?160" type="text/javascript"></script>
+ <script type="text/javascript">
+  VK.init({
+   apiId: 'Ваш_API_ID'
+  });
+  VK.Auth.getLoginStatus(function(response) {
+   if (response.session) {
+    VK.Api.call('users.get', {fields: 'photo_50'}, function(data) {
+     var user = data.response[0];
+     document.getElementById('vk_data').innerHTML = '<img src="' + user.photo_50 + '"><br>Имя: ' + user.first_name + '<br>Фамилия: ' + user.last_name;
+    });
+   } else {
+    alert('Пользователь не авторизован.');
+   }
+  });
+ </script>
+</body>
+</html>
