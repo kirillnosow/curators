@@ -9,22 +9,24 @@
  <p>Вы успешно авторизовались через ВКонтакте.</p>
  <p>Ниже приведены ваши данные:</p>
  <div id="vk_data"></div>
- <script src="https://vk.com/js/api/openapi.js?160" type="text/javascript"></script>
  <script type="text/javascript">
-  VK.init({
-   apiId: 51633091
-  });
-  VK.Auth.getLoginStatus(function(response) {
-   if (response.session) {
-    VK.Api.call('users.get', {fields: 'photo_50'}, function(data) {
-     var user = data.response[0];
-     document.getElementById('vk_data').innerHTML = '<img src="' + user.photo_50 + '"><br>Имя: ' + user.first_name + '<br>Фамилия: ' + user.last_name;
-    });
-   } else {
-    alert('Пользователь не авторизован.');
-   }
-  });
+  function getParameterByName(name, url) {
+   if (!url) url = window.location.href;
+   name = name.replace(/[\[\]]/g, '\\$&');
+   var regex = new RegExp('[?&]' + name + '(=([^&#]*)|&|#|$)'),
+    results = regex.exec(url);
+   if (!results) return null;
+   if (!results[2]) return '';
+   return decodeURIComponent(results[2].replace(/\+/g, ' '));
+  }
+  var uid = getParameterByName('uid');
+  var first_name = getParameterByName('first_name');
+  var last_name = getParameterByName('last_name');
+  if (uid && first_name && last_name) {
+   document.getElementById('vk_data').innerHTML = '<img src="https://vk.com/images/camera_50.png"><br>Имя: ' + first_name + '<br>Фамилия: ' + last_name;
+  } else {
+   alert('Данные пользователя не найдены.');
+  }
  </script>
 </body>
 </html>
-
