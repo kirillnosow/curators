@@ -172,7 +172,7 @@ body {
   width: 128px;
   background-color: #f9b234;
 }
-.ag-courses-item_bg {
+.ag-courses-item_bg-good {
   height: 128px;
   width: 128px;
   background-color: #3ecd5e
@@ -188,22 +188,22 @@ body {
   -o-transition: all .5s ease;
   transition: all .5s ease;
 }
-.ag-courses_item:nth-child(2n) .ag-courses-item_bg {
-  background-color: #3ecd5e;
-}
-.ag-courses_item:nth-child(3n) .ag-courses-item_bg {
-  background-color: #e44002;
-}
-.ag-courses_item:nth-child(4n) .ag-courses-item_bg {
-  background-color: #952aff;
-}
-.ag-courses_item:nth-child(5n) .ag-courses-item_bg {
-  background-color: #cd3e94;
-}
-.ag-courses_item:nth-child(6n) .ag-courses-item_bg {
-  background-color: #4c49ea;
-}
+.ag-courses-item_bg-bad {
+  height: 128px;
+  width: 128px;
+  background-color: #f9b234
 
+  z-index: 1;
+  position: absolute;
+  top: -75px;
+  right: -75px;
+
+  border-radius: 50%;
+
+  -webkit-transition: all .5s ease;
+  -o-transition: all .5s ease;
+  transition: all .5s ease;
+}
 
 
 @media only screen and (max-width: 979px) {
