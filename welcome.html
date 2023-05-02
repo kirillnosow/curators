@@ -6,8 +6,6 @@
 </head>
 <body>
  <h1>Добро пожаловать на сайт</h1>
- <p>Вы успешно авторизовались через ВКонтакте.</p>
- <p>Ниже приведены ваши данные:</p>
  <div id="vk_data"></div>
  <script type="text/javascript">
   function getParameterByName(name, url) {
@@ -23,7 +21,7 @@
   var first_name = getParameterByName('first_name');
   var last_name = getParameterByName('last_name');
   if (uid && first_name && last_name) {
-   document.getElementById('vk_data').innerHTML = '<img src="https://vk.com/images/camera_50.png"><br>Имя: ' + first_name + '<br>Фамилия: ' + last_name;
+   document.getElementById('vk_data').innerHTML = <br>Привет, : ' + first_name + last_name;
   } else {
    alert('Данные пользователя не найдены.');
   }
