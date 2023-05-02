@@ -10,7 +10,11 @@
 <!-- VK Widget -->
 <div id="vk_auth"></div>
 <script type="text/javascript">
-  VK.Widgets.Auth("vk_auth", {"authUrl":"/dev/Login"});
+    VK.Widgets.Auth('vk_auth', {
+   width: '200px',
+   onAuth: function(data) {
+    console.log(data);
+    window.location.href = '/welcome.html'; // замените на адрес своей страницы
 </script>
 
 </body>
