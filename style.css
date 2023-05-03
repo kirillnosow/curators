@@ -177,6 +177,22 @@ th {
   transition: all .5s ease;
 }
 
+.ag-courses-item_bg-bad {
+  height: 128px;
+  width: 128px;
+  background-color: #e44002;
+
+  z-index: 1;
+  position: absolute;
+  top: -75px;
+  right: -75px;
+
+  border-radius: 50%;
+
+  -webkit-transition: all .5s ease;
+  -o-transition: all .5s ease;
+  transition: all .5s ease;
+}
 
 
 @media only screen and (max-width: 979px) {
