@@ -145,7 +145,12 @@ th {
   text-decoration: none;
   color: #FFF;
 }
-.ag-courses-item_link:hover .ag-courses-item_bg-good .ag-courses-item_bg-bad {
+.ag-courses-item_link:hover .ag-courses-item_bg-good {
+  -webkit-transform: scale(10);
+  -ms-transform: scale(10);
+  transform: scale(10);
+}
+.ag-courses-item_link:hover .ag-courses-item_bg-bad {
   -webkit-transform: scale(10);
   -ms-transform: scale(10);
   transform: scale(10);
