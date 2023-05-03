@@ -160,6 +160,11 @@ th {
   -ms-transform: scale(10);
   transform: scale(10);
 }
+.ag-courses-item_link:hover .ag-courses-item_bg-interesting {
+  -webkit-transform: scale(10);
+  -ms-transform: scale(10);
+  transform: scale(10);
+}
 .ag-courses-item_title {
   min-height: 87px;
   margin: 0 0 25px;
@@ -207,6 +212,22 @@ th {
   height: 128px;
   width: 128px;
   background-color: #f9b234;
+    
+  z-index: 1;
+  position: absolute;
+  top: -75px;
+  right: -75px;
+
+  border-radius: 50%;
+
+  -webkit-transition: all .5s ease;
+  -o-transition: all .5s ease;
+  transition: all .5s ease;
+}
+.ag-courses-item_bg-interesting {
+  height: 128px;
+  width: 128px;
+  background-color: #cd3e94;
     
   z-index: 1;
   position: absolute;
