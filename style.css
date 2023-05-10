@@ -1,19 +1,19 @@
 
 @font-face {
-    font-family: 'TT Firs Neue', TT Firs Neue Regular;
-    src: url('TTFirsNeue-Regular.eot');
+    font-family: 'TT Firs Neue Regular';
+    src: url('/font/TTFirsNeue-Regular.eot');
     src: local('TT Firs Neue Regular'), local('TTFirsNeue-Regular'),
-        url('TTFirsNeue-Regular.eot?#iefix') format('embedded-opentype'),
-        url('TTFirsNeue-Regular.woff2') format('woff2'),
-        url('TTFirsNeue-Regular.woff') format('woff'),
-        url('TTFirsNeue-Regular.ttf') format('truetype');
+        url('/font/TTFirsNeue-Regular.eot?#iefix') format('embedded-opentype'),
+        url('/font/TTFirsNeue-Regular.woff2') format('woff2'),
+        url('/font/TTFirsNeue-Regular.woff') format('woff'),
+        url('/font/TTFirsNeue-Regular.ttf') format('truetype');
     font-weight: normal;
     font-style: normal;
 }
     /* Safari5 fix */
 @font-face {
-    font-family: 'TT Firs Neue', TT Firs Neue Regular;
-    src: url('TTFirsNeue-Regular.ttf') format('truetype') !important;
+    font-family: 'TT Firs Neue Regular';
+    src: url('/font/TTFirsNeue-Regular.ttf') format('truetype') !important;
     font-weight: normal;
     font-style: normal;
 }
@@ -40,7 +40,7 @@
 
 /* Установка стилей для тега body */
 body {
-    font-family: 'TT Firs Neue', TT Firs Neue Regular;
+    font-family: 'TT Firs Neue Regular';
     font-size: 16px;
     color: #D2D2D2;
     background-color: #000218;
@@ -68,7 +68,7 @@ h3 {
 /* Установка стилей для ссылок */
 a {
     color: #FF4C2B;
-    font-family: 'TT Firs Neue', TT Firs Neue Regular;
+    font-family: 'TT Firs Neue Regular';
     text-decoration: none;
 }
 
@@ -80,7 +80,7 @@ a:hover {
 button, input[type="submit"] {
     display: inline-block;
     padding: 10px 20px;
-    font-family: 'TT Firs Neue', TT Firs Neue Regular;
+    font-family: 'TT Firs Neue Regular';
     font-size: 16px;
     font-weight: bold;
     border: none;
