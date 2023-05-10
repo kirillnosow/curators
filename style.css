@@ -2,10 +2,53 @@
     font-family: 'TT Firs Neue';
     src: url('/font/stylesheet.css');
 }
+@font-face {
+    font-family: 'tt_firs_neueregular';
+    src: url('/webfont/ttfirsneue-regular-webfont.woff2') format('woff2'),
+         url('/webfont/ttfirsneue-regular-webfont.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+
+}
+@font-face {
+    font-family: 'tt_firs_neueblack';
+    src: url('/webfont/ttfirsneue-black-webfont.woff2') format('woff2'),
+         url('/webfont/ttfirsneue-black-webfont.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+
+}
+@font-face {
+    font-family: 'tt_firs_neuebold';
+    src: url('/webfont/ttfirsneue-bold-webfont.woff2') format('woff2'),
+         url('/webfont/ttfirsneue-bold-webfont.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+
+}
+@font-face {
+    font-family: 'tt_firs_neueextrabold';
+    src: url('/webfont/ttfirsneue-extrabold-webfont.woff2') format('woff2'),
+         url('/webfont/ttfirsneue-extrabold-webfont.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+
+}
+@font-face {
+    font-family: 'tt_firs_neuelight';
+    src: url('/webfont/ttfirsneue-light-webfont.woff2') format('woff2'),
+         url('/webfont/ttfirsneue-light-webfont.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+
+}
+
+
+
 
 /* Установка стилей для тега body */
 body {
-    font-family: 'TT Firs Neue', TT Firs Neue Regular;
+    font-family: 'tt_firs_neueregular';
     font-size: 16px;
     color: #D2D2D2;
     background-color: #000218;
@@ -13,7 +56,7 @@ body {
 
 /* Установка стилей для заголовков */
 h1, h2, h3 {
-    font-family: 'TT Firs Neue', TTFirsNeue-ExtraBold;
+    font-family: 'tt_firs_neueextrabold';
     font-weight: bold;
     color: #D2D2D2;
 }
@@ -33,7 +76,7 @@ h3 {
 /* Установка стилей для ссылок */
 a {
     color: #FF4C2B;
-    font-family: 'TT Firs Neue', TT Firs Neue Regular;
+    font-family: 'tt_firs_neueregular';
     text-decoration: none;
 }
 
@@ -45,7 +88,7 @@ a:hover {
 button, input[type="submit"] {
     display: inline-block;
     padding: 10px 20px;
-    font-family: 'TT Firs Neue', TT Firs Neue Regular;
+    font-family: 'tt_firs_neueregular';
     font-size: 16px;
     font-weight: bold;
     border: none;
