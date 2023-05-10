@@ -48,7 +48,7 @@ body {
 
 /* Установка стилей для заголовков */
 h1, h2, h3 {
-    font-family: 'TTFirsNeue-ExtraBold' !important;
+    font-family: 'TTFirsNeue-ExtraBold' !important; 
     font-weight: bold;
     color: #D2D2D2;
 }
