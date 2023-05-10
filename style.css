@@ -44,6 +44,8 @@ body {
     font-size: 16px;
     color: #D2D2D2;
     background-color: #000218;
+    -webkit-text-shadow: rgba(255,255,255,0.01) 0 0 1px;
+    -webkit-text-stroke: rgba(255,255,255,0.01) 0.1px;
 }
 
 /* Установка стилей для заголовков */
@@ -51,6 +53,8 @@ h1, h2, h3 {
     font-family: 'TT Firs Neue', TTFirsNeue-ExtraBold;
     font-weight: bold;
     color: #D2D2D2;
+    -webkit-text-shadow: rgba(255,255,255,0.01) 0 0 1px;
+    -webkit-text-stroke: rgba(255,255,255,0.01) 0.1px;
 }
 
 h1 {
