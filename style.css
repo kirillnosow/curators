@@ -44,23 +44,17 @@ body {
     font-size: 16px;
     color: #D2D2D2;
     background-color: #000218;
-    font-weight:normal;
-    font-style:normal;
 }
 
 /* Установка стилей для заголовков */
 h1, h2, h3 {
-    font-family: 'TT Firs Neue', TTFirsNeue-ExtraBold;
+    font-family: 'TT Firs Neue', TTFirsNeue-ExtraBold !important;
     font-weight: bold;
     color: #D2D2D2;
-    font-weight:normal;
-    font-style:bold;
 }
 
 h1 {
     font-size: 36px;
-    font-weight:normal;
-    font-style:normal;
 }
 
 h2 {
