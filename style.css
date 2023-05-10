@@ -13,7 +13,7 @@
     /* Safari5 fix */
 @font-face {
     font-family: 'TT Firs Neue', TT Firs Neue Regular;
-    src: url('TTFirsNeue-Regular.ttf') format('truetype'); !important;
+    src: url('TTFirsNeue-Regular.ttf') format('truetype') !important;
     font-weight: normal;
     font-style: normal;
 }
@@ -31,7 +31,7 @@
     /* Safari5 fix */
 @font-face {
     font-family: 'TT Firs Neue', TTFirsNeue-ExtraBold;
-    src: url('TTFirsNeue-ExtraBold.ttf') format('truetype'); !important;
+    src: url('TTFirsNeue-ExtraBold.ttf') format('truetype') !important;
     font-weight: normal;
     font-style: normal;
 }
