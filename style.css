@@ -10,6 +10,13 @@
     font-weight: normal;
     font-style: normal;
 }
+    /* Safari5 fix */
+@font-face {
+    font-family: 'TT Firs Neue', TT Firs Neue Regular;
+    src: url('TTFirsNeue-Regular.ttf') format('truetype'); !important;
+    font-weight: normal;
+    font-style: normal;
+}
 @font-face {
     font-family: 'TT Firs Neue', TTFirsNeue-ExtraBold;
     src: url('TTFirsNeue-ExtraBold.eot');
@@ -19,6 +26,13 @@
         url('TTFirsNeue-ExtraBold.woff') format('woff'),
         url('TTFirsNeue-ExtraBold.ttf') format('truetype');
     font-weight: 800;
+    font-style: normal;
+}
+    /* Safari5 fix */
+@font-face {
+    font-family: 'TT Firs Neue', TTFirsNeue-ExtraBold;
+    src: url('TTFirsNeue-ExtraBold.ttf') format('truetype'); !important;
+    font-weight: normal;
     font-style: normal;
 }
 
