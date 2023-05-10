@@ -18,7 +18,7 @@
     font-style: normal;
 }
 @font-face {
-    font-family: 'TT Firs Neue', TTFirsNeue-ExtraBold;
+    font-family: 'TTFirsNeue-ExtraBold';
     src: url('TTFirsNeue-ExtraBold.eot');
     src: local('TT Firs Neue ExtraBold'), local('TTFirsNeue-ExtraBold'),
         url('TTFirsNeue-ExtraBold.eot?#iefix') format('embedded-opentype'),
@@ -30,7 +30,7 @@
 }
     /* Safari5 fix */
 @font-face {
-    font-family: 'TT Firs Neue', TTFirsNeue-ExtraBold;
+    font-family: 'TTFirsNeue-ExtraBold';
     src: url('TTFirsNeue-ExtraBold.ttf') format('truetype') !important;
     font-weight: normal;
     font-style: normal;
@@ -48,7 +48,7 @@ body {
 
 /* Установка стилей для заголовков */
 h1, h2, h3 {
-    font-family: 'TT Firs Neue', TTFirsNeue-ExtraBold !important;
+    font-family: 'TTFirsNeue-ExtraBold' !important;
     font-weight: bold;
     color: #D2D2D2;
 }
