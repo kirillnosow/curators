@@ -1,6 +1,6 @@
 @font-face {
     font-family: 'TT Firs Neue';
-    src: url('/webfont/stylesheet.css');
+    src: url('/font/stylesheet.css');
 }
 @font-face {
     font-family: 'tt_firs_neueregular';
@@ -48,7 +48,7 @@
 
 /* Установка стилей для тега body */
 body {
-    font-family: 'tt_firs_neueregular';
+    font-family: 'tt_firs_neueregular', 'TT Firs Neue', 'TTFirsNeue-Regular';
     font-size: 16px;
     color: #D2D2D2;
     background-color: #000218;
