@@ -19,19 +19,19 @@
 }
 @font-face {
     font-family: 'TTFirsNeue-ExtraBold';
-    src: url('TTFirsNeue-ExtraBold.eot');
+    src: url('/font/TTFirsNeue-ExtraBold.eot');
     src: local('TT Firs Neue ExtraBold'), local('TTFirsNeue-ExtraBold'),
-        url('TTFirsNeue-ExtraBold.eot?#iefix') format('embedded-opentype'),
-        url('TTFirsNeue-ExtraBold.woff2') format('woff2'),
-        url('TTFirsNeue-ExtraBold.woff') format('woff'),
-        url('TTFirsNeue-ExtraBold.ttf') format('truetype');
+        url('/font/TTFirsNeue-ExtraBold.eot?#iefix') format('embedded-opentype'),
+        url('/font/TTFirsNeue-ExtraBold.woff2') format('woff2'),
+        url('/font/TTFirsNeue-ExtraBold.woff') format('woff'),
+        url('/font/TTFirsNeue-ExtraBold.ttf') format('truetype');
     font-weight: 800;
     font-style: normal;
 }
     /* Safari5 fix */
 @font-face {
     font-family: 'TTFirsNeue-ExtraBold';
-    src: url('TTFirsNeue-ExtraBold.ttf') format('truetype') !important;
+    src: url('/font/TTFirsNeue-ExtraBold.ttf') format('truetype') !important;
     font-weight: normal;
     font-style: normal;
 }
