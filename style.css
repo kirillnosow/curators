@@ -121,6 +121,43 @@ th {
     font-weight: bold;
 }
 
+.score-container {
+  width: 800px;
+  margin: 0 50px;
+}
+
+.score-box {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: start;
+  -ms-flex-align: start;
+  align-items: flex-start;
+  -ms-flex-wrap: wrap;
+  flex-wrap: wrap;
+
+  padding: -10px 0;
+}
+.score-item {
+  -ms-flex-preferred-size: calc(10% - 30px);
+  flex-basis: calc(15% - 30px);
+
+  overflow: hidden;
+
+  border-radius: 28px;
+  background-color: #f9b234;
+}
+.score-item_title {
+
+  overflow: hidden;
+  color: #FFF;
+
+  z-index: 2;
+  position: relative;
+  text-align: center;
+  vertical-align: middle;
+}
+
 /* Установка стилей для блоков с изображениями */
 .image-block {
     position: relative;
